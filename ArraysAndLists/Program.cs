@@ -22,6 +22,11 @@ namespace ArraysAndLists
             List<int> evens = new List<int>();
             List<int> odds = new List<int>();
 
+            //can write either way
+
+            //var even = new List<int>();
+            //var odds = new List<int>();
+            
             /* Using either a foreach or for loop,
              * nest an if statement to check to see
              *  if a number is even or odd.
@@ -53,12 +58,14 @@ namespace ArraysAndLists
                 Console.Write($"{num} ");
             }
             Console.WriteLine();
+            Console.WriteLine();
 
             Console.Write($"These are the even numbers from the list: ");
             foreach (int num in evens)
             {
                 Console.Write($"{num} ");
             }
+            Console.WriteLine();
             Console.WriteLine();
 
             Console.Write($"These are the odd numbers from the list: ");
